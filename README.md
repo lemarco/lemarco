@@ -102,14 +102,22 @@ High-load architecture · Process design · Team leadership
 
 ---
 
-## Timeline (compressed)
+## The path here
 
-```
-C++ data pipelines  →  Full-stack startup chaos  →  Fintech & iGaming scale
-        ↓                        ↓                              ↓
-   low-level grit          B2B / B2C products          Staff / Lead Engineer
-        ↓                        ↓                              ↓
-   Rust + TypeScript     High-load + big data     Clean arch + agents in prod
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a2e', 'primaryTextColor': '#e0e0e0', 'primaryBorderColor': '#6366f1', 'lineColor': '#6366f1', 'secondaryColor': '#16213e', 'tertiaryColor': '#0f3460'}}}%%
+flowchart LR
+    A["<b>C++ era</b><br/>financial data pipelines<br/><i>low-level grit</i>"]
+    B["<b>Startup era</b><br/>full-stack chaos<br/><i>B2B · B2C products</i>"]
+    C["<b>Scale era</b><br/>fintech · iGaming<br/><i>high-load · big data</i>"]
+    D["<b>Now</b><br/>Staff Engineer<br/><i>clean arch · agents in prod</i>"]
+
+    A --> B --> C --> D
+
+    style A fill:#1e1e2e,stroke:#6366f1,stroke-width:2px,color:#e0e0e0
+    style B fill:#1e1e2e,stroke:#818cf8,stroke-width:2px,color:#e0e0e0
+    style C fill:#1e1e2e,stroke:#a78bfa,stroke-width:2px,color:#e0e0e0
+    style D fill:#312e81,stroke:#c4b5fd,stroke-width:2px,color:#f0f0f0
 ```
 
 ---
