@@ -9,6 +9,7 @@
 <br/>
 
 [![GitLab](https://img.shields.io/badge/→_I_live_on-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/lemarco)
+[![Rust](https://img.shields.io/badge/Evangelist-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org)
 [![Bun](https://img.shields.io/badge/Evangelist-Bun-000000?style=for-the-badge&logo=bun&logoColor=white)](https://bun.sh)
 
 </div>
@@ -74,7 +75,9 @@ High-load architecture · Process design · Team leadership
 
 ## Opinions (held strongly, updated occasionally)
 
-> **Bun evangelist** in a JS world that forgot how fast tooling can be.
+> **Rust evangelist** — if it compiles, it ships; if it doesn't, at least the error message respects you.
+
+> **Bun evangelist** — a JS world that forgot how fast tooling can be.
 
 > Functional programming isn't a phase — it's a **Haskell** and **Elixir** scar that never healed (in a good way).
 
