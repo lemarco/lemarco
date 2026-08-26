@@ -59,6 +59,16 @@ The model is one component. The architecture around it is the job.
 
 ---
 
+## How I think about infrastructure
+
+I've worked with **`AWS`** — EC2, S3, RDS, the full managed stack. Can ship there, no problem.
+
+But given the choice, I prefer **bare metal**: you know exactly what you pay for, no abstraction tax when every millisecond counts, no surprise bill because someone left an RDS instance running since 2019.
+
+**Cost efficiency** isn't being cheap — it's paying for capacity you actually use, picking the right tool for the workload, and not renting convenience when a well-tuned self-hosted stack does the job better.
+
+---
+
 ## Stack
 
 Ten years across the stack — from bare metal to browser, from batch pipelines to real-time event systems.
@@ -93,9 +103,9 @@ pub/sub · job queues · stream processing · async pipelines
 
 ### Platform & Ops
 
-`Kubernetes` · `Docker` · `Linux` · `GitLab CI`
+`AWS` · `Kubernetes` · `Docker` · `Linux` · `GitLab CI`
 
-CI/CD · observability · load balancing · caching · high availability · zero-downtime deploys · capacity planning
+bare metal · cost efficiency · right-sizing · CI/CD · observability · load balancing · caching · high availability · zero-downtime deploys · capacity planning
 
 ### Architecture
 
