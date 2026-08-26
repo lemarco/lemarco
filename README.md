@@ -4,7 +4,7 @@
 
 **Staff Engineer · Full-stack · High-load systems**
 
-*Building complex things with Rust, TypeScript, and a healthy distrust of `npm install`*
+*Complex problems, boring infrastructure, zero tolerance for demo-ware*
 
 <br/>
 
@@ -18,11 +18,26 @@
 
 ## About
 
-Staff / Lead Engineer with **10 years** of shipping hard things — from financial data pipelines in C++ to agentic workflows in Rust.
+**10 years** as Staff / Lead Engineer — from C++ financial data hammers to distributed systems at scale.
 
-I build and scale **high-load applications** with large datasets. I optimize teams and processes, not just queries. Fintech, iGaming, B2B, B2C — production at scale, not slide decks.
+I build **high-load applications** with large datasets. Fintech, iGaming, B2B, B2C — domains where downtime costs money and "we'll fix it in the next sprint" isn't an option.
 
-Currently experimenting with **AI agents & workflow orchestration** — the kind that survive contact with production.
+I don't just write code — I **design processes** that let teams ship faster without setting prod on fire.
+
+---
+
+## How I think about AI
+
+Most "AI products" are demos wearing a production badge. I don't do that.
+
+I treat agents and workflows as **systems engineering** — same rules as any other service:
+
+- clear boundaries and failure modes
+- observability when the model goes off-script
+- composable workflows, not prompt spaghetti
+- integration into existing infra, not a parallel universe
+
+The model is one component. The architecture around it is the job.
 
 ---
 
@@ -82,7 +97,7 @@ C++ data pipelines  →  Full-stack startup chaos  →  Fintech & iGaming scale
         ↓                        ↓                              ↓
    low-level grit          B2B / B2C products          Staff / Lead Engineer
         ↓                        ↓                              ↓
-   Rust + TypeScript     High-load + big data          Agents & workflows
+   Rust + TypeScript     High-load + big data     Agents as systems, not demos
 ```
 
 ---
