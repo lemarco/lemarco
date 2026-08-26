@@ -53,9 +53,9 @@ The model is one component. The architecture around it is the job.
 
 ## How I think about infrastructure
 
-I've worked with **`AWS`** — EC2, S3, RDS, the full managed stack. Can ship there, no problem.
+I've worked with **`AWS`** — EC2, S3, RDS, the full managed stack. And **`Cloudflare`** — DNS, CDN, Workers, edge routing. Can ship on both, no problem.
 
-But given the choice, I prefer **bare metal**: you know exactly what you pay for, no abstraction tax when every millisecond counts, no surprise bill because someone left an RDS instance running since 2019.
+But for the core workload, I prefer **bare metal**: you know exactly what you pay for, no abstraction tax when every millisecond counts, no surprise bill because someone left an RDS instance running since 2019. Cloudflare at the edge + bare metal behind it is a combo that actually makes sense.
 
 **Cost efficiency** isn't being cheap — it's paying for capacity you actually use, picking the right tool for the workload, and not renting convenience when a well-tuned self-hosted stack does the job better.
 
@@ -95,7 +95,7 @@ pub/sub · job queues · stream processing · async pipelines
 
 ### Platform & Ops
 
-`AWS` · `Kubernetes` · `Docker` · `Linux` · `GitLab CI`
+`AWS` · `Cloudflare` · `Kubernetes` · `Docker` · `Linux` · `GitLab CI`
 
 bare metal · cost efficiency · right-sizing · CI/CD · observability · load balancing · caching · high availability · zero-downtime deploys · capacity planning
 
