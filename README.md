@@ -2,9 +2,9 @@
 
 # Le Marc
 
-**Staff Engineer · Full-stack · High-load systems**
+**Staff Engineer · ship fast, multiply the team**
 
-*Complex problems, boring infrastructure, zero tolerance for demo-ware*
+*Rust · TypeScript · high-load · agents in production*
 
 <br/>
 
@@ -16,56 +16,37 @@
 
 ---
 
-## About
+## Who
 
-**10 years** as Staff / Lead Engineer — from C++ financial data hammers to distributed systems at scale.
+**10 years** as Staff / Lead Engineer — C++ financial data pipelines to distributed systems at scale. Fintech, iGaming, B2B, B2C — domains where downtime costs money.
 
-I build **high-load applications** with large datasets. Fintech, iGaming, B2B, B2C — domains where downtime costs money and "we'll fix it in the next sprint" isn't an option.
-
-I don't just write code — I **design processes** that let teams ship faster without setting prod on fire.
-
-I deliver to **production quickly** — and not just me personally. The people around me do too. That's the actual Staff Engineer job: remove blockers, shorten feedback loops, align the team on how to ship safely, and make sure deploying isn't a ceremony that requires one person's blessing.
+I ship to **production quickly** — and the people around me do too. I design processes, remove blockers, and align teams on safe deployment so releasing isn't a one-person ceremony.
 
 ---
 
 ## How I think about architecture
 
-**Clean architecture** isn't a slide deck — it's how you keep a codebase alive when the team grows, the domain shifts, and someone new has to change prod on day three.
-
-Domain logic stays domain logic. Infrastructure stays at the edges. Dependencies point inward. Not because Uncle Bob said so — because I've seen what happens when they don't.
-
-Hexagonal, ports & adapters, bounded contexts — pick the vocabulary, the idea is the same: **make the hard parts testable and the easy parts replaceable**.
+**Clean architecture** keeps a codebase alive when the team grows and someone new touches prod on day three. Domain logic stays domain logic, infrastructure at the edges, dependencies point inward — **hard parts testable, easy parts replaceable**.
 
 ---
 
 ## How I think about AI
 
-Most "AI products" are demos wearing a production badge. I don't do that.
+Agents and workflows are **systems engineering**, not demos. Clear boundaries, observability when the model goes off-script, composable workflows, integration into existing infra. The model is one component — the architecture around it is the job.
 
-I treat agents and workflows as **systems engineering** — same rules as any other service:
-
-- clear boundaries and failure modes
-- observability when the model goes off-script
-- composable workflows, not prompt spaghetti
-- integration into existing infra, not a parallel universe
-
-The model is one component. The architecture around it is the job.
+**Currently focused on:** agent workflows and production RAG pipelines.
 
 ---
 
 ## How I think about infrastructure
 
-I've worked with **`AWS`** — EC2, S3, RDS, the full managed stack. And **`Cloudflare`** — DNS, CDN, Workers, edge routing. Can ship on both, no problem.
+**`AWS`** and **`Cloudflare`** — fine, I've shipped on both. For core workloads I prefer **bare metal**: known costs, no abstraction tax, no surprise bills. Edge on Cloudflare, compute on metal — that combo makes sense.
 
-But for the core workload, I prefer **bare metal**: you know exactly what you pay for, no abstraction tax when every millisecond counts, no surprise bill because someone left an RDS instance running since 2019. Cloudflare at the edge + bare metal behind it is a combo that actually makes sense.
-
-**Cost efficiency** isn't being cheap — it's paying for capacity you actually use, picking the right tool for the workload, and not renting convenience when a well-tuned self-hosted stack does the job better.
+**Cost efficiency** means paying for capacity you use and picking the right tool — not renting managed services when a tuned self-hosted stack does it better.
 
 ---
 
 ## Stack
-
-Ten years across the stack — from bare metal to browser, from batch pipelines to real-time event systems.
 
 ### Languages & Runtimes
 
@@ -99,22 +80,14 @@ pub/sub · job queues · stream processing · async pipelines
 
 `AWS` · `Cloudflare` · `Kubernetes` · `Docker` · `Linux` · `GitLab CI`
 
-bare metal · cost efficiency · right-sizing · CI/CD · observability · load balancing · caching · high availability · zero-downtime deploys · capacity planning
-
-### Architecture
-
-clean / hexagonal · DDD · ports & adapters · bounded contexts · monorepos · domain-centric design
-
-### AI & Automation
-
-LLM integration · agent workflows · tool orchestration · RAG pipelines · prompt pipelines as code · eval & observability
+bare metal · cost efficiency · right-sizing · CI/CD · observability · high availability · zero-downtime deploys
 
 ---
 
 <div align="center">
 
-**GitHub is a signpost → [github.com/lemarco](https://github.com/lemarco)**
+Open to staff / lead roles · [lemarc.dev@gmail.com](mailto:lemarc.dev@gmail.com)
 
-*All repos live here. All commits happen here.*
+[![GitHub](https://img.shields.io/badge/GitHub-lemarco-181717?style=flat-square&logo=github)](https://github.com/lemarco)
 
 </div>
