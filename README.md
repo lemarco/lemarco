@@ -26,6 +26,16 @@ I don't just write code — I **design processes** that let teams ship faster wi
 
 ---
 
+## How I think about architecture
+
+**Clean architecture** isn't a slide deck — it's how you keep a codebase alive when the team grows, the domain shifts, and someone new has to change prod on day three.
+
+Domain logic stays domain logic. Infrastructure stays at the edges. Dependencies point inward. Not because Uncle Bob said so — because I've seen what happens when they don't.
+
+Hexagonal, ports & adapters, bounded contexts — pick the vocabulary, the idea is the same: **make the hard parts testable and the easy parts replaceable**.
+
+---
+
 ## How I think about AI
 
 Most "AI products" are demos wearing a production badge. I don't do that.
@@ -80,6 +90,8 @@ High-load architecture · Process design · Team leadership
 
 ## Opinions (held strongly, updated occasionally)
 
+> **Clean architecture believer** — domain at the center, infra at the edges, regret minimized.
+
 > **Rust evangelist** — if it compiles, it ships; if it doesn't, at least the error message respects you.
 
 > **Bun evangelist** — a JS world that forgot how fast tooling can be.
@@ -97,7 +109,7 @@ C++ data pipelines  →  Full-stack startup chaos  →  Fintech & iGaming scale
         ↓                        ↓                              ↓
    low-level grit          B2B / B2C products          Staff / Lead Engineer
         ↓                        ↓                              ↓
-   Rust + TypeScript     High-load + big data     Agents as systems, not demos
+   Rust + TypeScript     High-load + big data     Clean arch + agents in prod
 ```
 
 ---
