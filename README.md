@@ -32,6 +32,8 @@ I build **high-load applications** with large datasets. Fintech, iGaming, B2B, B
 
 I don't just write code — I **design processes** that let teams ship faster without setting prod on fire.
 
+I deliver to **production quickly** — and not just me personally. The people around me do too. That's the actual Staff Engineer job: remove blockers, shorten feedback loops, align the team on how to ship safely, and make sure deploying isn't a ceremony that requires one person's blessing.
+
 ---
 
 ## How I think about architecture
