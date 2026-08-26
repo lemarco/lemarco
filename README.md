@@ -61,34 +61,80 @@ The model is one component. The architecture around it is the job.
 
 ## Stack
 
+Ten years across the stack — from bare metal to browser, from batch pipelines to real-time event systems.
+
 <table>
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="33%">
 
-**Languages & Runtimes**
+**Languages**
 
-`Rust` · `TypeScript` · `Haskell` · `Elixir` · `C++`
+`Rust` · `TypeScript` · `JavaScript`
+
+`C++` · `Haskell` · `Elixir`
+
+**Runtimes & Tooling**
+
+`Bun` · `Node.js` · `Cargo`
+
+`Docker` · `Git` · `Nix`
+
+</td>
+<td valign="top" width="33%">
 
 **Backend**
 
-`Axum` · `NestJS` · Microservices · Event-driven
+`Axum` · `Tokio` · `NestJS`
+
+Microservices · REST · `GraphQL`
+
+Event-driven · CQRS · gRPC
 
 **Frontend**
 
 `React` · `SolidJS` · `Svelte`
 
+`Next.js` · SSR · component libraries
+
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="33%">
 
-**Data & Messaging**
+**Data**
 
-`PostgreSQL` · `MySQL` · `MongoDB` · `ClickHouse`
+`PostgreSQL` · `MySQL` · `MongoDB`
+
+`ClickHouse` · `Redis` · migrations & indexing
+
+**Messaging**
 
 `Kafka` · `RabbitMQ` · `NATS`
 
-**Infra & Ops**
+streaming · pub/sub · job queues
 
-High-load architecture · Process design · Team leadership
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="3">
+
+**Platform & Ops**
+
+`Kubernetes` · `Linux` · CI/CD · `GitLab CI`
+
+observability · load balancing · caching layers
+
+high-availability · zero-downtime deploys · capacity planning
+
+**Architecture**
+
+Clean / Hexagonal · DDD · ports & adapters
+
+monorepos · domain-centric design · contract-first APIs
+
+**AI & Automation**
+
+LLM integration · agent workflows · tool orchestration
+
+RAG pipelines · prompt pipelines as code · eval & observability
 
 </td>
 </tr>
