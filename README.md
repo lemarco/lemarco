@@ -63,82 +63,47 @@ The model is one component. The architecture around it is the job.
 
 Ten years across the stack — from bare metal to browser, from batch pipelines to real-time event systems.
 
-<table>
-<tr>
-<td valign="top" width="33%">
+### Languages & Runtimes
 
-**Languages**
+`Rust` · `TypeScript` · `JavaScript` · `C++` · `Haskell` · `Elixir` · `Bun` · `Node.js` · `Cargo` · `Nix`
 
-`Rust` · `TypeScript` · `JavaScript`
+### Backend & APIs
 
-`C++` · `Haskell` · `Elixir`
+`Axum` · `Tokio` · `NestJS` · `GraphQL` · `gRPC` · `REST`
 
-**Runtimes & Tooling**
+microservices · event-driven · CQRS · contract-first APIs
 
-`Bun` · `Node.js` · `Cargo`
+### Frontend
 
-`Docker` · `Git` · `Nix`
+`React` · `SolidJS` · `Svelte` · `Next.js`
 
-</td>
-<td valign="top" width="33%">
+SSR · component libraries · design systems
 
-**Backend**
+### Data & Storage
 
-`Axum` · `Tokio` · `NestJS`
+`PostgreSQL` · `MySQL` · `MongoDB` · `ClickHouse` · `Redis`
 
-Microservices · REST · `GraphQL`
+migrations · indexing · query optimization · analytics workloads
 
-Event-driven · CQRS · gRPC
-
-**Frontend**
-
-`React` · `SolidJS` · `Svelte`
-
-`Next.js` · SSR · component libraries
-
-</td>
-<td valign="top" width="33%">
-
-**Data**
-
-`PostgreSQL` · `MySQL` · `MongoDB`
-
-`ClickHouse` · `Redis` · migrations & indexing
-
-**Messaging**
+### Messaging & Streaming
 
 `Kafka` · `RabbitMQ` · `NATS`
 
-streaming · pub/sub · job queues
+pub/sub · job queues · stream processing · async pipelines
 
-</td>
-</tr>
-<tr>
-<td valign="top" colspan="3">
+### Platform & Ops
 
-**Platform & Ops**
+`Kubernetes` · `Docker` · `Linux` · `GitLab CI`
 
-`Kubernetes` · `Linux` · CI/CD · `GitLab CI`
+CI/CD · observability · load balancing · caching · high availability · zero-downtime deploys · capacity planning
 
-observability · load balancing · caching layers
+### Architecture
 
-high-availability · zero-downtime deploys · capacity planning
+clean / hexagonal · DDD · ports & adapters · bounded contexts · monorepos · domain-centric design
 
-**Architecture**
+### AI & Automation
 
-Clean / Hexagonal · DDD · ports & adapters
-
-monorepos · domain-centric design · contract-first APIs
-
-**AI & Automation**
-
-LLM integration · agent workflows · tool orchestration
-
-RAG pipelines · prompt pipelines as code · eval & observability
-
-</td>
-</tr>
-</table>
+LLM integration · agent workflows · tool orchestration · RAG pipelines · prompt pipelines as code · eval & observability
 
 ---
 
