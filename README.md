@@ -88,20 +88,6 @@ High-load architecture · Process design · Team leadership
 
 ---
 
-## Opinions (held strongly, updated occasionally)
-
-> **Clean architecture believer** — domain at the center, infra at the edges, regret minimized.
-
-> **Rust evangelist** — if it compiles, it ships; if it doesn't, at least the error message respects you.
-
-> **Bun evangelist** — a JS world that forgot how fast tooling can be.
-
-> Functional programming isn't a phase — it's a **Haskell** and **Elixir** scar that never healed (in a good way).
-
-> Started with **C++ financial data hammers**. Still respect the ones that don't allocate on the hot path.
-
----
-
 ## The path here
 
 ```mermaid
