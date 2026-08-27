@@ -22,7 +22,7 @@
 
 ## Who
 
-**10 years** as Staff / Lead Engineer — C++ financial data pipelines to distributed systems at scale. Fintech, iGaming, B2B, B2C — domains where downtime costs money.
+**10 years** as Staff / Lead Engineer building **high-load systems** with large datasets — fintech, iGaming, B2B, B2C. Domains where downtime costs money and architecture actually matters.
 
 I ship to **production quickly** — and the people around me do too. I design processes, remove blockers, and align teams on safe deployment so releasing isn't a one-person ceremony.
 
