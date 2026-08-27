@@ -20,6 +20,20 @@
 
 ---
 
+## Featured project
+
+### [**craft**](https://gitlab.com/lemarco/craft)
+
+**A distributed Raft + actor framework for Rust** — one codebase, N nodes, elastic and self-healing.
+
+Embed consensus + actors in your binary: same artifact on every node, cluster bootstraps and elects a leader, replicates a linearizable state machine, and hosts supervised actors that message and migrate across nodes. No sidecar, no separate control plane.
+
+`Raft` · `HTTP/3` · `QUIC` · `mTLS` · `actors` · `redb` · 32 ADRs · Docker e2e · chaos tests
+
+[![craft on GitLab](https://img.shields.io/badge/craft-GitLab-FC6D26?style=flat-square&logo=gitlab)](https://gitlab.com/lemarco/craft)
+
+---
+
 ## Who
 
 **10 years** as Staff / Lead Engineer building **high-load systems** with large datasets — fintech, iGaming, B2B, B2C. Domains where downtime costs money and architecture actually matters.
