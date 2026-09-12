@@ -30,7 +30,7 @@ Embed consensus + actors in your binary: same artifact on every node, cluster bo
 
 `Raft` · `HTTP/3` · `QUIC` · `mTLS` · `actors` · `redb` · Docker e2e · chaos tests
 
-[![trembita on GitLab](https://img.shields.io/badge/craft-GitLab-FC6D26?style=flat-square&logo=gitlab)](https://gitlab.com/lemarco/trembita)
+[![trembita on GitLab](https://img.shields.io/badge/trembita-GitLab-FC6D26?style=flat-square&logo=gitlab)](https://gitlab.com/lemarco/trembita)
 
 ---
 
