@@ -10,7 +10,7 @@
 
 [![GitLab](https://img.shields.io/badge/Home-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/lemarco)
 [![Rust](https://img.shields.io/badge/Evangelist-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org)
-[![Bun](https://img.shields.io/badge/Evangelist-Bun-000000?style=for-the-badge&logo=bun&logoColor=white)](https://bun.sh)
+
 
 </div>
 
