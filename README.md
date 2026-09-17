@@ -1,10 +1,12 @@
 <div align="center">
 
-# Le Marc
+# Ihor Hoienko
+
+*Also **Le Marc** (`lemarco`) on [GitLab](https://gitlab.com/lemarco) & [crates.io](https://crates.io/users/lemarco)*
 
 **Staff Engineer · ship fast, multiply the team**
 
-*Rust · TypeScript · high-load · agents in production*
+*Rust · TypeScript · high-load · event pipelines · agents in production*
 
 <br/>
 
@@ -20,25 +22,43 @@
 
 ---
 
-## Featured project
+## Featured projects
 
-### [**craft**](https://gitlab.com/lemarco/craft)
+### [**trembita**](https://gitlab.com/lemarco/trembita)
 
-**A distributed Raft + actor framework for Rust** — one codebase, N nodes, elastic and self-healing.
+**A distributed Raft runtime for Rust** — one codebase, N nodes, elastic and self-healing. Published on [crates.io](https://crates.io/crates/trembita).
 
-Embed consensus + actors in your binary: same artifact on every node, cluster bootstraps and elects a leader, replicates a linearizable state machine, and hosts supervised actors that message and migrate across nodes. No sidecar, no separate control plane.
+Embed consensus in your binary: same artifact on every node, HTTP/3/mTLS cluster, linearizable state machine, and a **capability platform** — typed ops (`#[cap_handler]`), jobs, event topics, workflows, real-time sessions — on embedded **redb** (library-first on VPS, no mandatory Redis). Multi-Raft write scaling, cross-shard sagas, rolling self-update. No sidecar, no control plane.
 
-`Raft` · `HTTP/3` · `QUIC` · `mTLS` · `actors` · `redb` · 32 ADRs · Docker e2e · chaos tests
+`Raft` · `Multi-Raft` · `HTTP/3` · `QUIC` · `mTLS` · `capabilities` · `redb` · 45 ADRs · Docker e2e · chaos tests
 
-[![craft on GitLab](https://img.shields.io/badge/craft-GitLab-FC6D26?style=flat-square&logo=gitlab)](https://gitlab.com/lemarco/craft)
+[![trembita on GitLab](https://img.shields.io/badge/trembita-GitLab-FC6D26?style=flat-square&logo=gitlab)](https://gitlab.com/lemarco/trembita)
+[![crates.io](https://img.shields.io/crates/v/trembita?style=flat-square&logo=rust)](https://crates.io/crates/trembita)
+[![docs.rs](https://img.shields.io/docsrs/trembita?style=flat-square&logo=docs.rs)](https://docs.rs/trembita)
+
+### [**tilt**](https://gitlab.com/lemarco/tilt)
+
+**Native Rust Wayland compositor** — i3/Sway-compatible tiling WM on [Smithay](https://github.com/Smithay/smithay). Active development.
+
+Same config mental model as Sway (`bindsym`, workspaces, gaps), Sway-compatible IPC (`tilt msg`, waybar), XWayland, layer-shell — compositor logic in memory-safe Rust. Nested winit backend for dev; DRM/KMS path in progress.
+
+`Wayland` · `Smithay` · `i3/Sway config` · `IPC` · `XWayland` · `layout tree`
+
+[![tilt on GitLab](https://img.shields.io/badge/tilt-GitLab-FC6D26?style=flat-square&logo=gitlab)](https://gitlab.com/lemarco/tilt)
 
 ---
 
 ## Who
 
-**10 years** as Staff / Lead Engineer building **high-load systems** with large datasets — fintech, iGaming, B2B, B2C. Domains where downtime costs money and architecture actually matters.
+**10 years** as Staff / Lead Engineer on **high-load, data-heavy** platforms — fintech, iGaming, B2B, B2C. Work where **throughput and correctness both matter**: transactional paths under real traffic, analytics that must stay honest, and releases that cannot be a one-person ritual.
 
-I ship to **production quickly** — and the people around me do too. I design processes, remove blockers, and align teams on safe deployment so releasing isn't a one-person ceremony.
+**Scale I've shipped:** event volumes in the **hundreds of millions per day** on individual hot streams (gaming telemetry was one slice of a much wider API surface). **Kafka** for ingestion and fan-out, **Debezium** CDC when OLTP stayed in Postgres/MySQL but reporting couldn't, **ClickHouse** for rollups, dashboards, and operator-facing aggregates — OLTP and OLAP kept separate on purpose.
+
+**Staff scope:** mostly **product teams** (~**4–10 engineers**), plus **platform** stints. As Staff I've been the **single technical anchor across multiple squads** — architecture, unblocking, and shared standards when no one else owns the horizontal slice.
+
+**What I change in orgs:** **architecture** that holds up under traffic and team churn; **CI/CD and DX** (pipelines, conventions, less release friction); **ADR-style** decision records where they pay off. Introduced **practical AI in engineering workflows** and an internal **harness** (profiles, rules, repo conformance) so teams don't reinvent process every sprint.
+
+I ship to **production quickly** — and the people around me do too.
 
 ---
 
@@ -52,7 +72,7 @@ I ship to **production quickly** — and the people around me do too. I design p
 
 Agents and workflows are **systems engineering**, not demos. Clear boundaries, observability when the model goes off-script, composable workflows, integration into existing infra. The model is one component — the architecture around it is the job.
 
-**Currently focused on:** agent workflows and production RAG pipelines.
+**Currently focused on:** **trembita** (distributed runtime for product backends) and agent workflows / production RAG pipelines.
 
 ---
 
@@ -68,31 +88,27 @@ Agents and workflows are **systems engineering**, not demos. Clear boundaries, o
 
 ### Languages & Runtimes
 
-`Rust` · `TypeScript` · `JavaScript` · `C++` · `Haskell` · `Elixir` · `Bun` · `Node.js` · `Cargo` · `Nix`
+`Rust` · `TypeScript` · `JavaScript` · `Bun` · `Node.js` · `Cargo`
 
-### Backend & APIs
+Side projects & learning (not production-shipped): `C++` · `Haskell` · `Elixir` · `Nix`
 
-`Axum` · `Tokio` · `NestJS` · `GraphQL` · `gRPC` · `REST`
+### Backend & Frontend
 
-microservices · event-driven · CQRS · contract-first APIs
+`Axum` · `Tokio` · `NestJS` · `GraphQL` · `gRPC` · `REST` · `React` · `SolidJS` · `Svelte` · `Next.js`
 
-### Frontend
-
-`React` · `SolidJS` · `Svelte` · `Next.js`
-
-SSR · component libraries · design systems
+microservices · event-driven · CQRS · SSR · design systems · contract-first APIs
 
 ### Data & Storage
 
 `PostgreSQL` · `MySQL` · `MongoDB` · `ClickHouse` · `Redis`
 
-migrations · indexing · query optimization · analytics workloads
+OLTP vs OLAP split · migrations · indexing · columnar aggregates · reporting workloads
 
 ### Messaging & Streaming
 
-`Kafka` · `RabbitMQ` · `NATS`
+`Kafka` · `Debezium` · `RabbitMQ` · `NATS`
 
-pub/sub · job queues · stream processing · async pipelines
+CDC · pub/sub · job queues · stream processing · async pipelines
 
 ### Platform & Ops
 
@@ -104,9 +120,10 @@ bare metal · cost efficiency · right-sizing · CI/CD · observability · high 
 
 <div align="center">
 
-Open to staff / lead roles · [lemarc.dev@gmail.com](mailto:lemarc.dev@gmail.com)
+Open to staff / lead roles · Warsaw (CET) · remote-friendly · [lemarc.dev@gmail.com](mailto:lemarc.dev@gmail.com)
 
 [![GitLab](https://img.shields.io/badge/GitLab-lemarco-FC6D26?style=flat-square&logo=gitlab)](https://gitlab.com/lemarco)
 [![GitHub](https://img.shields.io/badge/GitHub-lemarco-181717?style=flat-square&logo=github)](https://github.com/lemarco)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ihor_Hoienko-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ihor-hoienko-2b444287/)
 
 </div>
