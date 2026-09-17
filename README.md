@@ -18,7 +18,7 @@
 
 ---
 
-**All active work → [gitlab.com/lemarco](https://gitlab.com/lemarco)** · GitHub is a signpost
+**Home → [gitlab.com/lemarco](https://gitlab.com/lemarco)** · [GitHub](https://github.com/lemarco) mirrors this profile
 
 ---
 
